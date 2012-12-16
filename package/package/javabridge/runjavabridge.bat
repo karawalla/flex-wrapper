@@ -1,0 +1,2 @@
+set _JAVA_OPTIONS=%_JAVA_OPTIONS%;C:\Dev\java\javabridge\opencv2.jar;C:\Dev\java\javabridge
+"C:\Program Files\Java\jdk1.7.0\bin\java" -Xmx512m -classpath .;C:\Dev\java\javabridge\opencv2.jar SwingApplication
