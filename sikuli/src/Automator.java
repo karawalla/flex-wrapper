@@ -235,8 +235,8 @@ public class Automator {
 
     }
 
-    public  void addLabel(ScreenLocation screenLocation, String msgString, int displayTime) {
-        painter_.label(screenLocation, msgString, displayTime);
+    public  void addLabel(ScreenRegion screenRegion, String msgString, int displayTime) {
+        painter_.label(screenRegion, msgString, displayTime);
     }
 
     public Relative getRelativityHandler()
